@@ -17,7 +17,7 @@ pipeline {
         stage('deploy') {
             steps {
                     sh    """
-                        kubectl apply -f kubernetes -n dev
+                        kubectl apply -f k8s -n dev
                     """
             }
         }
