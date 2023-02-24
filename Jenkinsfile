@@ -8,8 +8,8 @@ pipeline {
             	withCredentials([usernamePassword(credentialsId: 'use-docker', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
                     sh   """
                         docker login -u $USERNAME -p $PASSWORD
-                        docker build -t big-unison-377212/hello-world ./App/
-                        docker push big-unison-377212/hello-world
+                        docker build -t omniaibrahim/hello-world ./App/
+                        docker push omniaibrahim/hello-world
                     """
                  }
             }
