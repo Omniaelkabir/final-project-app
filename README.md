@@ -14,7 +14,7 @@ Add credentials to the DockerHub into Jenkins server :
 To add docker user
 
 2) Configure the cluster inside the pod for deploying the new apps:
-     . connect to the pod
+     `. connect to the pod
      . install gcloud inside the pod
      . Switch to jenkins user and authenticate the gcloud within the user and then configure cluster with the user profile
      . Connect to cluster 
