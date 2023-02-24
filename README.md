@@ -34,3 +34,5 @@ kubectl get svc -n dev
 7) get the ip address
 
 8) get access to the web-site
+
+![Screenshot from 2023-02-24 20-03-50](https://user-images.githubusercontent.com/88335759/221298756-6e42ab93-d1ff-4619-b880-e36e2792ef84.png)
